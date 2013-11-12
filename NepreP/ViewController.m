@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
     //test
+    //奥西
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
