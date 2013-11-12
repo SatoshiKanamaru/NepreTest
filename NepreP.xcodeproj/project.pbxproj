@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D640D411831C8C800999276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D640D401831C8C800999276 /* Foundation.framework */; };
+		0D640D431831C8C800999276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D640D421831C8C800999276 /* CoreGraphics.framework */; };
+		0D640D451831C8C800999276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D640D441831C8C800999276 /* UIKit.framework */; };
+		0D640D4B1831C8C800999276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D640D491831C8C800999276 /* InfoPlist.strings */; };
+		0D640D4D1831C8C800999276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D4C1831C8C800999276 /* main.m */; };
+		0D640D511831C8C800999276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D501831C8C800999276 /* AppDelegate.m */; };
+		0D640D541831C8C800999276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D640D521831C8C800999276 /* Main.storyboard */; };
+		0D640D571831C8C800999276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D561831C8C800999276 /* ViewController.m */; };
+		0D640D591831C8C800999276 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D640D581831C8C800999276 /* Images.xcassets */; };
+		0D640D601831C8C800999276 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D640D5F1831C8C800999276 /* XCTest.framework */; };
+		0D640D611831C8C800999276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D640D401831C8C800999276 /* Foundation.framework */; };
+		0D640D621831C8C800999276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D640D441831C8C800999276 /* UIKit.framework */; };
+		0D640D6A1831C8C800999276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D640D681831C8C800999276 /* InfoPlist.strings */; };
+		0D640D6C1831C8C800999276 /* NeprePTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D6B1831C8C800999276 /* NeprePTests.m */; };
+		0D640D781831C8F800999276 /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D771831C8F800999276 /* ZUUIRevealController.m */; };
+		0D640D801831C9CF00999276 /* RevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D7F1831C9CF00999276 /* RevealController.m */; };
+		0D640D851831CA4F00999276 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D831831CA4F00999276 /* SidebarViewController.m */; };
+		0D640D861831CA4F00999276 /* SidebarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D640D841831CA4F00999276 /* SidebarViewController.xib */; };
+		0D640D8A1831CBC500999276 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D640D881831CBC500999276 /* FoodViewController.m */; };
+		0D640D8B1831CBC500999276 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D640D891831CBC500999276 /* FoodViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D640D631831C8C800999276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D640D351831C8C800999276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D640D3C1831C8C800999276;
+			remoteInfo = NepreP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D640D3D1831C8C800999276 /* NepreP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepreP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D640D401831C8C800999276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D640D421831C8C800999276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D640D441831C8C800999276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D640D481831C8C800999276 /* NepreP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NepreP-Info.plist"; sourceTree = "<group>"; };
+		0D640D4A1831C8C800999276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D640D4C1831C8C800999276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D640D4E1831C8C800999276 /* NepreP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NepreP-Prefix.pch"; sourceTree = "<group>"; };
+		0D640D4F1831C8C800999276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D640D501831C8C800999276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D640D531831C8C800999276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D640D551831C8C800999276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D640D561831C8C800999276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D640D581831C8C800999276 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D640D5E1831C8C800999276 /* NeprePTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeprePTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D640D5F1831C8C800999276 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0D640D671831C8C800999276 /* NeprePTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeprePTests-Info.plist"; sourceTree = "<group>"; };
+		0D640D691831C8C800999276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D640D6B1831C8C800999276 /* NeprePTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeprePTests.m; sourceTree = "<group>"; };
+		0D640D761831C8F800999276 /* ZUUIRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUUIRevealController.h; sourceTree = "<group>"; };
+		0D640D771831C8F800999276 /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUUIRevealController.m; sourceTree = "<group>"; };
+		0D640D7E1831C9CF00999276 /* RevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealController.h; sourceTree = "<group>"; };
+		0D640D7F1831C9CF00999276 /* RevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealController.m; sourceTree = "<group>"; };
+		0D640D821831CA4F00999276 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		0D640D831831CA4F00999276 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		0D640D841831CA4F00999276 /* SidebarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SidebarViewController.xib; sourceTree = "<group>"; };
+		0D640D871831CBC500999276 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		0D640D881831CBC500999276 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		0D640D891831CBC500999276 /* FoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D640D3A1831C8C800999276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D640D431831C8C800999276 /* CoreGraphics.framework in Frameworks */,
+				0D640D451831C8C800999276 /* UIKit.framework in Frameworks */,
+				0D640D411831C8C800999276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D640D5B1831C8C800999276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D640D601831C8C800999276 /* XCTest.framework in Frameworks */,
+				0D640D621831C8C800999276 /* UIKit.framework in Frameworks */,
+				0D640D611831C8C800999276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D640D341831C8C800999276 = {
+			isa = PBXGroup;
+			children = (
+				0D640D461831C8C800999276 /* NepreP */,
+				0D640D651831C8C800999276 /* NeprePTests */,
+				0D640D3F1831C8C800999276 /* Frameworks */,
+				0D640D3E1831C8C800999276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D640D3E1831C8C800999276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D3D1831C8C800999276 /* NepreP.app */,
+				0D640D5E1831C8C800999276 /* NeprePTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D640D3F1831C8C800999276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D401831C8C800999276 /* Foundation.framework */,
+				0D640D421831C8C800999276 /* CoreGraphics.framework */,
+				0D640D441831C8C800999276 /* UIKit.framework */,
+				0D640D5F1831C8C800999276 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D640D461831C8C800999276 /* NepreP */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D791831C93500999276 /* Views */,
+				0D640D4F1831C8C800999276 /* AppDelegate.h */,
+				0D640D501831C8C800999276 /* AppDelegate.m */,
+				0D640D521831C8C800999276 /* Main.storyboard */,
+				0D640D551831C8C800999276 /* ViewController.h */,
+				0D640D561831C8C800999276 /* ViewController.m */,
+				0D640D581831C8C800999276 /* Images.xcassets */,
+				0D640D751831C8F800999276 /* ZUUIRevealController */,
+				0D640D471831C8C800999276 /* Supporting Files */,
+			);
+			path = NepreP;
+			sourceTree = "<group>";
+		};
+		0D640D471831C8C800999276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D481831C8C800999276 /* NepreP-Info.plist */,
+				0D640D491831C8C800999276 /* InfoPlist.strings */,
+				0D640D4C1831C8C800999276 /* main.m */,
+				0D640D4E1831C8C800999276 /* NepreP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D640D651831C8C800999276 /* NeprePTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D6B1831C8C800999276 /* NeprePTests.m */,
+				0D640D661831C8C800999276 /* Supporting Files */,
+			);
+			path = NeprePTests;
+			sourceTree = "<group>";
+		};
+		0D640D661831C8C800999276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D671831C8C800999276 /* NeprePTests-Info.plist */,
+				0D640D681831C8C800999276 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D640D751831C8F800999276 /* ZUUIRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D761831C8F800999276 /* ZUUIRevealController.h */,
+				0D640D771831C8F800999276 /* ZUUIRevealController.m */,
+			);
+			path = ZUUIRevealController;
+			sourceTree = "<group>";
+		};
+		0D640D791831C93500999276 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D7E1831C9CF00999276 /* RevealController.h */,
+				0D640D7F1831C9CF00999276 /* RevealController.m */,
+				0D640D811831CA1100999276 /* SideBar */,
+				0D640D7A1831C93F00999276 /* FoodView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D640D7A1831C93F00999276 /* FoodView */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D871831CBC500999276 /* FoodViewController.h */,
+				0D640D881831CBC500999276 /* FoodViewController.m */,
+				0D640D891831CBC500999276 /* FoodViewController.xib */,
+			);
+			name = FoodView;
+			sourceTree = "<group>";
+		};
+		0D640D811831CA1100999276 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				0D640D821831CA4F00999276 /* SidebarViewController.h */,
+				0D640D831831CA4F00999276 /* SidebarViewController.m */,
+				0D640D841831CA4F00999276 /* SidebarViewController.xib */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D640D3C1831C8C800999276 /* NepreP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D640D6F1831C8C800999276 /* Build configuration list for PBXNativeTarget "NepreP" */;
+			buildPhases = (
+				0D640D391831C8C800999276 /* Sources */,
+				0D640D3A1831C8C800999276 /* Frameworks */,
+				0D640D3B1831C8C800999276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NepreP;
+			productName = NepreP;
+			productReference = 0D640D3D1831C8C800999276 /* NepreP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D640D5D1831C8C800999276 /* NeprePTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D640D721831C8C800999276 /* Build configuration list for PBXNativeTarget "NeprePTests" */;
+			buildPhases = (
+				0D640D5A1831C8C800999276 /* Sources */,
+				0D640D5B1831C8C800999276 /* Frameworks */,
+				0D640D5C1831C8C800999276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D640D641831C8C800999276 /* PBXTargetDependency */,
+			);
+			name = NeprePTests;
+			productName = NeprePTests;
+			productReference = 0D640D5E1831C8C800999276 /* NeprePTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D640D351831C8C800999276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Lsr;
+				TargetAttributes = {
+					0D640D5D1831C8C800999276 = {
+						TestTargetID = 0D640D3C1831C8C800999276;
+					};
+				};
+			};
+			buildConfigurationList = 0D640D381831C8C800999276 /* Build configuration list for PBXProject "NepreP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D640D341831C8C800999276;
+			productRefGroup = 0D640D3E1831C8C800999276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D640D3C1831C8C800999276 /* NepreP */,
+				0D640D5D1831C8C800999276 /* NeprePTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D640D3B1831C8C800999276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D640D591831C8C800999276 /* Images.xcassets in Resources */,
+				0D640D4B1831C8C800999276 /* InfoPlist.strings in Resources */,
+				0D640D541831C8C800999276 /* Main.storyboard in Resources */,
+				0D640D8B1831CBC500999276 /* FoodViewController.xib in Resources */,
+				0D640D861831CA4F00999276 /* SidebarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D640D5C1831C8C800999276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D640D6A1831C8C800999276 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D640D391831C8C800999276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D640D571831C8C800999276 /* ViewController.m in Sources */,
+				0D640D801831C9CF00999276 /* RevealController.m in Sources */,
+				0D640D851831CA4F00999276 /* SidebarViewController.m in Sources */,
+				0D640D781831C8F800999276 /* ZUUIRevealController.m in Sources */,
+				0D640D511831C8C800999276 /* AppDelegate.m in Sources */,
+				0D640D8A1831CBC500999276 /* FoodViewController.m in Sources */,
+				0D640D4D1831C8C800999276 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D640D5A1831C8C800999276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D640D6C1831C8C800999276 /* NeprePTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D640D641831C8C800999276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D640D3C1831C8C800999276 /* NepreP */;
+			targetProxy = 0D640D631831C8C800999276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D640D491831C8C800999276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D640D4A1831C8C800999276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D640D521831C8C800999276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D640D531831C8C800999276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D640D681831C8C800999276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D640D691831C8C800999276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D640D6D1831C8C800999276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D640D6E1831C8C800999276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D640D701831C8C800999276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NepreP/NepreP-Prefix.pch";
+				INFOPLIST_FILE = "NepreP/NepreP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D640D711831C8C800999276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NepreP/NepreP-Prefix.pch";
+				INFOPLIST_FILE = "NepreP/NepreP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D640D731831C8C800999276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NepreP.app/NepreP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NepreP/NepreP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NeprePTests/NeprePTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0D640D741831C8C800999276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NepreP.app/NepreP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NepreP/NepreP-Prefix.pch";
+				INFOPLIST_FILE = "NeprePTests/NeprePTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D640D381831C8C800999276 /* Build configuration list for PBXProject "NepreP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D640D6D1831C8C800999276 /* Debug */,
+				0D640D6E1831C8C800999276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D640D6F1831C8C800999276 /* Build configuration list for PBXNativeTarget "NepreP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D640D701831C8C800999276 /* Debug */,
+				0D640D711831C8C800999276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D640D721831C8C800999276 /* Build configuration list for PBXNativeTarget "NeprePTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D640D731831C8C800999276 /* Debug */,
+				0D640D741831C8C800999276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D640D351831C8C800999276 /* Project object */;
+}
